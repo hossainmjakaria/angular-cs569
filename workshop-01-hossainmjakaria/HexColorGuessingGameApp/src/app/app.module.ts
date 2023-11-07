@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CheatDirective } from './cheat.directive';
 import { ZippyBasicComponent } from './zippy-basic.component';
+import { NgTemplateOutletExample } from './ng-template-outlet-example.component';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { ZippyBasicComponent } from './zippy-basic.component';
     AppComponent,
     CheatDirective,
     ZippyBasicComponent,
+    NgTemplateOutletExample
   ],
   imports: [
     BrowserModule

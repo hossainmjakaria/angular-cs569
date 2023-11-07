@@ -22,14 +22,17 @@ import { GameHistory, GameResult } from './model';
 
   <app-zippy-basic>
     <p>Is content projection cool?</p>
-    <p>Is content projection cool?</p>
-    <p>Is content projection cool q?</p>
+    <div question>Test</div>
     <p question>Is content projection cool q?</p>
-    <p question>Is content projection cool q?</p>      
-    <p>Is content projection cool?</p>
-    <p>Is content projection cool?</p>
-    <div>Test</div>
   </app-zippy-basic>
+
+  <ng-template-outlet-example></ng-template-outlet-example>
+
+
+  <ng-template appExampleZippyContent>
+    It depends on what you do with it.
+  </ng-template>
+
   `,
   styles: [
     `
